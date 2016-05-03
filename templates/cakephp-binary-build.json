@@ -42,7 +42,7 @@
                 "host": "${APPLICATION_DOMAIN}",
                 "to": {
                     "kind": "Service",
-                    "name": "cakephp-example"
+                    "name": "${APPLICATION_NAME}"
                 }
             }
         },
